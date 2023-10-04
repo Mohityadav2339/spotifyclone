@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    height: 80vh;
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    padding: 0.5rem;
+    background-color: black;
+    
+}
+.side-bar{
+    flex: 0.25;
+    height: 80vh;
+    background-color: black;
+}
+.top-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    margin: 0.5rem;
+    background-color: #121212;
+    border-radius: 0.5rem;
+
+}
+.link-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    opacity: 0.7;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+    
+}
+.link-flex:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.link-flex img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.main-content{
+    /* height: auto; */
+    overflow-y: auto;
+    flex: 0.8;
+    border-radius: 0.5rem;
+    background-color: #121212;
+}
+
+h2{
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.library{
+    position: sticky;
+    top: 0;
+    height: 90vh;
+    margin: 0.5rem;
+    overflow-y: auto;
+    background-color: #121212;
+    border-radius: 0.5rem;
+
+}
+.flex-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-flex p{
+    color: white;
+}
+.chip{
+    background-color: #232323;
+    padding: 0.5rem 1rem;
+    border-radius: 8rem;
+    color: white;
+}
+
+.album-flex{
+    padding: 0.5rem 1rem;
+    background-color: #393939;
+    margin: 0.5rem;
+    
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+    background-color: #232323;
+    border-radius: 0.5rem;
+}
+
+.card-box{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-inline: 10px;
+}
+.card{
+    width: 140px;
+    height: 200px; 
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #393939;
+    
+}
+.card-image{
+    align-items: center !important;
+    margin-bottom: 0.5rem;
+}
+.card-detail{
+    width: fit-content;
+    
+}
+.card-detail>p{
+    color: white;
+   ;
+}
+.card:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.player{
+    position: fixed;
+    height: 80px;
+    width: 95%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    background-color: #121212;
+    margin: 13px;
+    margin-top: 20px;
+
+    
+}
+.music-title{
+    width:20%
+}
+
+.music-player{
+    width: 60%;
+    height: 100%;
+    background-color:#121212;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+
+}
+.music-player img{
+    height: 1.2rem;
+    width: 1.2rem;
+    color: ;
+}
+.music-volume{
+    width: 20%;
+}
+
+
+
+
+
+
+
